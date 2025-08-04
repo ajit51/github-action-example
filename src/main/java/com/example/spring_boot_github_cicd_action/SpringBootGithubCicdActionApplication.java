@@ -11,7 +11,7 @@ public class SpringBootGithubCicdActionApplication {
 
     @GetMapping("/welcome")
     public String welcome() {
-        return "Welcome to Github CICD Action Pipeline";
+        return "Welcome to the Github CICD Action Pipeline";
     }
 
     public static void main(String[] args) {
