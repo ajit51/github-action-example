@@ -14,6 +14,7 @@ public class SpringBootGithubCicdActionApplication {
         return "Welcome to the Github CICD Action Pipeline";
     }
 
+
     public static void main(String[] args) {
         SpringApplication.run(SpringBootGithubCicdActionApplication.class, args);
     }
